@@ -1,0 +1,53 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  width: 100%;
+}
+
+div.active {
+  display: flex;
+}
+
+.activeButton {
+  display: flex;
+}
+
+.postsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  // flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  gap: 12px;
+  height: 80vh;
+}
+
+.post {
+  border: 2px solid black;
+  height: 350px;
+  text-decoration: none;
+  color: black;
+  &:hover,
+  &.active {
+    color: black;
+    text-decoration: none;
+  }
+  .postTitle {
+    width: 100%;
+    border-bottom: solid 2px $post-title-bg;
+  }
+}
+.addPostButton {
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+.addPostButtonHidden {
+  @extend .addPostButton;
+  display: none;
+}
+// .addPostButton
+@media only screen and (max-width: 992px) {
+  .postsGrid {
+    overflow: scroll;
+  }
+}

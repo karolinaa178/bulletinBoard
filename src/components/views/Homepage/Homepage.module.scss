@@ -1,0 +1,10 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  width: 90%;
+}

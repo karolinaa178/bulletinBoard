@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+
+/* size */
+$base-size: 12px;
+
+/* Fonts */
+$title-font: 'Montserrat', 'roboto';
+$main-font: 'Open Sans', sans-serif;
+$font-size: 2vh;
+
+/* colors */
+$main-color: #2b46a8;
+$title-color: #ffff;
+$title-color-hover: #ed548a;
+$button-bg: #ffff;
+$button-color: #000000;
+$button-color-hover: #ffffff;
+$button-bg-hover: #ffbd59;
+$header-bg:  linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+
+/*Post*/
+$post-title-bg: #445FBF;
+
+/* Transition */
+$transition: all 0.3s;
+
+
